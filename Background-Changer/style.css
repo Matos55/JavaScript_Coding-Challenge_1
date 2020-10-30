@@ -1,0 +1,47 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+button {
+    background-color: rebeccapurple;
+    color: white;
+    padding: 1rem;
+    font-family: inherit;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    border: none;
+    transition: transform 0.1s linear ;
+}
+
+button:focus {
+    outline: none;
+
+    /* 
+    Note: Outline differs from borders! Unlike border, the outline is drawn outside the element's border, and may overlap other content. 
+    Also, the outline is NOT a part of the element's dimensions; the element's total width and height is not affected by the width of the outline.
+    */
+}
+
+button:active {
+    box-shadow: 0;
+    transform: translate(2px, 2px);
+
+    /*
+    The transform property applies a 2D or 3D transformation to an element. This property allows you to rotate, scale, move, skew, etc., elements.
+    */
+}
+
