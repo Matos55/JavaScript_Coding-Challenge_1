@@ -43,6 +43,8 @@ label {
     user-select: none;    
     /*The user-select CSS property controls whether the user can select text. */
     /*in this case, we can not select|highlight the label*/
+
+    transition: background 0.3s linear, 
 }
 
 body.dark label {
